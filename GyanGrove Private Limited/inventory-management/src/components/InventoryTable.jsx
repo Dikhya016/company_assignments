@@ -19,7 +19,7 @@ const InventoryTable = () => {
 
     //edit item
     const editItem =(updateItem)=>{
-      setInventory((pre)=>pre.map((item)=> item.id===updateItem.id ? {...item,updateItem} :item))
+      setInventory((pre)=>pre.map((item)=> item.id===updateItem.id ? {...item,...updateItem} :item))
     }
     
     //delete item
