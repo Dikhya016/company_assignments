@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Responsive Cart Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Your code goes here -->
+    <!-- <div class="container">
+        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+    </div> -->
+    <!-- Happy coding 😊 -->
+
+    <main style="max-width: 1440px; max-height: 100px">
+      <header>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars menu-icon"></i>
+          <i class="fas fa-times close-icon"></i>
+        </button>
+        <div class="logoCont">
+          <img src="media/logo.png" alt="" />
+          <h2>Marmeto</h2>
+        </div>
+        <div class="nav">
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About</li>
+          <li>Contact</li>
+        </div>
+        <div class="icons">
+          <li><img src="media/search-interface-symbol.png" alt="" /></li>
+          <li><img src="media/heart.png" alt="" /></li>
+          <li><img src="media/shopping-cart.png" alt="" /></li>
+        </div>
+      </header>
+      <section class="hero-section">
+        <img class="B_logo" src="media/logo.png" alt="" />
+        <h1 class="page-title">Cart</h1>
+        <div class="breadcrumb">
+          <a href="/"> <b>Home</b></a>
+          <span class="separator"> <b>></b></span>
+          <span>Cart</span>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="cart-container">
+          <div class="cart-items">
+            <div class="cart-header" style="background-color:#fdf6f2; padding-left: 40px;">
+              <div>Product</div>
+              <div>Price</div>
+              <div>Quantity</div>
+              <div>Subtotal</div>
+              <div></div>
+            </div>
+            <div id="cart-items-container">
+              <div class="loading">Loading cart data...</div>
+            </div>
+          </div>
+
+          <div class="cart-totals">
+            <h2>Cart Totals</h2>
+            <div class="totals-row">
+              <span>Subtotal</span>
+              <span id="subtotal">Rs. 0.00</span>
+            </div>
+            <div class="totals-row">
+              <span>Total</span>
+              <span id="total">Rs. 0.00</span>
+            </div>
+            <button class="checkout-btn" id="checkout-btn">Check Out</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefits-container">
+        <div class="benefit-item">
+          <div class="icon">
+            <img src="media/quality.png" alt="">
+          </div>
+          <div class="benefit-content">
+            <div class="benefit-title">High Quality</div>
+            <div class="benefit-subtitle">crafted from top materials</div>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="icon">
+            <img src="media/warrenty.png" alt="">
+            </svg>
+          </div>
+          <div class="benefit-content">
+            <div class="benefit-title">Warranty Protection</div>
+            <div class="benefit-subtitle">Over 2 years</div>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="icon">
+            <img src="media/shopping.png" alt="">
+          </div>
+          <div class="benefit-content">
+            <div class="benefit-title">Free Shipping</div>
+            <div class="benefit-subtitle">Order over 150 $</div>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="icon">
+            <img src="media/support.png" alt="">
+          </div>
+          <div class="benefit-content">
+            <div class="benefit-title">24 / 7 Support</div>
+            <div class="benefit-subtitle">Dedicated support</div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
